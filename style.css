@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+#app {
+  font-family: "Noto sans";
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.card-img-top {
+  max-width: 200px;
+  height: auto;
+}
+
+.card-title {
+  color: rgb(99, 54, 141);
+}
+
+a {
+  transition: color 1s;
+}
+
+a:hover {
+  transition: color 500ms;
+  color: rgb(99, 54, 141);
+}
+
+@media screen and (max-width: 900px) {
+  #search-form {
+    display: none;
+  }
+}
+.party-package-info .card-img-top {
+  max-height: 75px;
+  max-width: 75px;
+}
+
+#coffee-machine-table img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.contact-info-box .card-img-top {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+nav {
+  border-bottom: 1px solid rgb(204, 194, 204);
+}
+nav .nav-item {
+  font-size: 20px;
+}
+nav .container {
+  margin: 0;
+}
+nav .container .navbar-brand {
+  justify-content: center;
+  align-items: center;
+}
+nav .container .navbar-brand h1 {
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
+@media screen and (max-width: 500px) {
+  nav .container .navbar-brand h1 {
+    display: none;
+  }
+}
+nav .container .navbar-brand img {
+  max-height: 75px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    font-size: 10px;
+  }
+}
+footer {
+  border-top: 1px solid rgb(204, 194, 204);
+  background-color: rgb(245, 245, 245);
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer span {
+  margin: 1rem;
+}
+footer span a {
+  text-decoration: none;
+  color: rgb(194, 149, 236);
+}
+
+/*# sourceMappingURL=style.css.map */

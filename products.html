@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Kafo.svg/107px-Kafo.svg.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffe Party Company</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="row m-2">
+      <div class="col party-package-info">
+        <h2>Coffee Party Packages </h2>
+        <div class="card text-start mb-2">
+          <img class="card-img-top" src="https://www.svgrepo.com/show/493664/coffee-beans-filled-roast-brew.svg" alt="Business" />
+          <div class="card-body">
+            <h4 class="card-title">Business package</h4>
+            <p class="card-text">Coffee party package for business occassions</p>
+            <p class="card-text">Price: <strong>10000 SEK</strong> (minimum 30 individuals)</p>
+          </div>
+        </div>
+        <div class="card text-start">
+          <img class="card-img-top" src="https://www.svgrepo.com/show/493663/coffee-beans-roast-brew.svg" alt="Individual" />
+          <div class="card-body">
+            <h4 class="card-title">Individual package</h4>
+            <p class="card-text">Coffee party package for individuals occassions</p>
+            <p class="card-text">Price: <strong>1000 SEK</strong> </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h2>Coffee Machines </h2>
+        <div class="table-responsive">
+          <table class="table table-primary">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Model</th>
+                <th scope="col">Price</th>
+                <th scope="col">info</th>
+              </tr>
+            </thead>
+            <tbody id="coffee-machine-table">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <footer class="fixed-bottom"></footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
