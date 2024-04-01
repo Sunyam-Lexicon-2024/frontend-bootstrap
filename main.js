@@ -51,7 +51,7 @@ if (footer != null)
 var nav = `
 <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
 <div class="container">
-  <a class="navbar-brand d-flex justify-content-center align-items-center" href="/">
+  <a class="navbar-brand d-flex justify-content-center align-items-center" href="/frontend-bootstrap/">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Kafo.svg/107px-Kafo.svg.png" alt="">
     <h1>Coffee Party Company</h1>
   </a>
@@ -61,10 +61,10 @@ var nav = `
   <div class="collapse navbar-collapse" id="collapsibleNavId">
     <ul class="navbar-nav me-auto mt-2 mt-lg-0">
       <li class="nav-item">
-        <a class="nav-link" href="/products">Products</a>
+        <a class="nav-link" href="/frontend-bootstrap/products">Products</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/about">about</a>
+        <a class="nav-link" href="/frontend-bootstrap/about">about</a>
       </li>
     </ul>
   </div>
