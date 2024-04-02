@@ -64,7 +64,7 @@ var nav = `
         <a class="nav-link" href="/frontend-bootstrap/products">Products</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/frontend-bootstrap/about">about</a>
+        <a class="nav-link" href="/frontend-bootstrap/about">About</a>
       </li>
     </ul>
   </div>
