@@ -26,17 +26,17 @@ var machines = [
     info: "Espresso Machine"
   }
 ];
-machines.forEach((i) => {
+machines.forEach((m) => {
   let machineRow = document.createElement("tr");
   let machineModel = document.createElement("th");
   let machinePrice = document.createElement("th");
   let machineInfo = document.createElement("th");
   let machinePicture = document.createElement("th");
   let machineImg = document.createElement("img");
-  machineImg.src = i.picture;
-  machineModel.textContent = i.name;
-  machinePrice.textContent = i.price;
-  machineInfo.textContent = i.info;
+  machineImg.src = m.picture;
+  machineModel.textContent = m.name;
+  machinePrice.textContent = m.price;
+  machineInfo.textContent = m.info;
   machinePicture.appendChild(machineImg);
   machineRow.appendChild(machinePicture);
   machineRow.appendChild(machineModel);
